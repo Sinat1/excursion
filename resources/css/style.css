@@ -3,9 +3,9 @@ body {
 }
 
 img {
-    display: block;
-    height: auto;
-    margin: 0;
+  display: block;
+  height: auto;
+  margin: 0;
 }
 
 .hero {
@@ -47,4 +47,30 @@ img {
   font-family: Verdana;
   font-size: 21px;
   color: gray;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.footer-title {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.trademark {
+  position: absolute;
+  bottom: -40px;
+  right: 10px;
+  color: gray;
+  padding-bottom: 20px;
+  margin: 0;
 }
