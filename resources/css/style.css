@@ -1,23 +1,50 @@
 body {
-    background-color: #000;
+  background-color: #000;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: 0;
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: 50px;
-    color: #fff;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: #fff;
 }
 
 .download-link {
-    color: aquamarine;
-    text-decoration: none;
-    margin-bottom: 15px;
+  color: aquamarine;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.travel-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel-guide__title {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.travel-guide__text {
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
 }
